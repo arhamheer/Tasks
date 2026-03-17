@@ -1,0 +1,62 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Generated plots
+**/plots/*.png
+**/plots/*.jpg
+**/plots/*.svg
+**/plots/*.pdf
+
+# Generated model / ML artifacts
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+models/
+checkpoints/
+fine_tuned_model/
+
+# Generated output data
+**/data/predictions.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
