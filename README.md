@@ -32,14 +32,6 @@ HF_MODEL=mistralai/Mistral-7B-Instruct-v0.2
 ## Run Any Task
 Use each folder's `README.md` for exact commands.
 
-## Run All Tasks Automatically
-Use the PowerShell helper script to verify all tasks and optionally launch all Streamlit apps.
-
-```powershell
-.\run_all_tasks.ps1
-.\run_all_tasks.ps1 -LaunchApps
-.\run_all_tasks.ps1 -RunTask5Training
-```
 
 ## Notes
 - Some datasets are downloaded automatically when running scripts/apps.
